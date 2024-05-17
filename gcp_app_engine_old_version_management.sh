@@ -45,7 +45,7 @@ do
   for OLD_VERSION in $OLD_VERSIONS
   do
     echo "Stopping version: $OLD_VERSION"
-    gcloud app versions stop --project $PROJECT_ID --service $SERVICE_ID $OLD_VERSION --quiet
+    #gcloud app versions stop --project $PROJECT_ID --service $SERVICE_ID $OLD_VERSION --quiet
   done
 
   # Add two line spaces
